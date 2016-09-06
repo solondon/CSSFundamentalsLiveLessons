@@ -1,0 +1,128 @@
+body { 
+  font-family:Calibri, Verdana, sans-serif; 
+}
+
+#page { 
+  margin:0 auto; 
+  overflow:hidden; 
+  width:574px; 
+}
+
+h1 { 
+  font-family:Georgia, serif; 
+  letter-spacing:-4px;
+  border-bottom:1px solid #fff; 
+  margin-bottom:-.25em;  
+  text-indent:.5em;  
+}
+
+#main { 
+  background-color:#AABBFF; 
+  background-image:url(Main.png); 
+  background-position:center top; 
+  background-repeat:repeat-y; 
+  float:left; 
+  width:400px; 
+}
+
+#main-1 { 
+  background-image:url(Main-Top.png); 
+  background-position:center top; 
+  background-repeat:no-repeat; 
+  padding-top:10px; 
+}
+
+#main-2 { 
+  background-image:url(Main-Bottom.png); 
+  background-position:center bottom; 
+  background-repeat:no-repeat; 
+  padding:0 15px 10px 15px; 
+}
+
+div.post { 
+  margin-bottom:2em; 
+}
+
+h2.post-title { 
+  font-size:1.2em; 
+  margin-bottom:0; 
+}
+
+div.post-meta { 
+  margin-bottom:1em; 
+}
+
+div.post-meta span {
+  background-position:left .2em; 
+  background-repeat:no-repeat;  
+  padding-left:20px; 
+  margin-right:4px; 
+}
+
+span.post-date { 
+  background-image:url(Calendar-Icon.png); 
+}
+
+span.post-comments { 
+  background-image:url(Comments-Icon.png); 
+}
+
+#side { 
+  margin-left:420px; 
+  width:154px; 
+}
+
+#side img { 
+  border-width:2px; 
+  border-color:#aaaaaa; 
+  border-style:solid; 
+  display:block; 
+  margin-bottom:1em; 
+}
+
+#about * { 
+  display:inline; 
+  font-size:1em; 
+}
+
+body#photos #main-2 { 
+  overflow:hidden; 
+  padding:10px 2px 20px 2px; 
+}
+
+.photo { 
+  float:left; 
+  margin:10px 2px 10px 2px; 
+}
+
+.thumbnail a { 
+  background-color:#bbbbbb; 
+  border:1px solid #777777; 
+  display:block; 
+  line-height:116px; 
+  padding:2px; 
+  text-align:center; 
+  width:120px; 
+  height:120px; 
+}
+
+.thumbnail a:focus, .thumbnail a:hover { 
+  background-color:#bbbbff; 
+}
+
+.thumbnail a img { 
+  border:none; 
+  vertical-align:middle; 
+}
+
+.caption { 
+  background-color:#ffffbb; 
+  border:1px solid #ffff33; 
+  border-top:0;
+  font-size:.8em; 
+  line-height:1.2;  
+  padding:2px; 
+  text-align:center; 
+  width:120px; 
+  height:2.4em; 
+}

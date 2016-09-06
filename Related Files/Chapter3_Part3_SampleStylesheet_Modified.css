@@ -1,0 +1,41 @@
+h1 { 
+  letter-spacing:-1px;
+  text-transform:uppercase;
+}
+
+p { 
+  line-height:1.5;
+  text-align:left;
+}
+
+#p2 { 
+  text-align:right;
+}
+
+#p1 { 
+  text-decoration:underline;
+  text-indent:2em;
+}
+
+#p2 { 
+  text-transform:lowercase;
+}
+
+#p3 { 
+  word-spacing:6px;
+}
+
+#p4 { 
+  font-weight:bold;
+  font-style:;
+  font-variant:small-caps;
+}
+
+body { 
+  font-size:100%;
+}
+
+#p5 { 
+  font-size:120%;
+  font-family:"Trebuchet MS",Trebuchet,sans-serif;
+}

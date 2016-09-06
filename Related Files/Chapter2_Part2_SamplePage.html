@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>CSS Syntax</title>
+		<link rel='stylesheet' type='text/css' href='Chapter2-Part2-SampleStylesheet.css'>
+	</head>
+	<body>
+		<h1>An Introduction to CSS Syntax</h1>
+		<h2>The basics</h2>
+		<p>Stylesheets are made up of rules, which comprise selectors and property:value pairs. A typical CSS rule might be:</p>
+		<pre><code>
+body { 
+	color:green;
+}
+		</code></pre>
+		<p>A quick search for "CSS 2.1 Selectors" will return <a href="http://www.w3.org/TR/CSS2/selector.html">the official document from the W3C</a> describing all the possibilities for selectors. The important takeaways are:</p>
+		<ul id="takeaways">
+			<li>Selectors can include tag names, IDs, classes, and a variety of other options with varying browser support</li>
+			<li>Selectors can be grouped with commas to combine rulesets</li>
+			<li>Two or more selectors separated by whitespace are descendant selectors</li>
+			<li>The asterisk is a wildcard that matches any element</li>
+			<li class="ids">IDs are denoted using the hash symbol: <code>#myid</code></li>
+			<li>Classes are denoted by periods: <code>.myclass</code></li>
+			<li>IDs and classes can be combined with tag names to target more specific cases.</li>
+		</ul>
+		<h2>A complex example</h2>
+		<pre><code>
+ul#takeaways li.ids * {
+	color:blue;
+}
+		</code></pre>
+	</body>
+</html>

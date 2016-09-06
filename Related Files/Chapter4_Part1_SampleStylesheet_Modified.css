@@ -1,0 +1,37 @@
+#box1 { 
+  padding:20px;
+  margin:40px;
+  border-width:10px;
+  border-style:solid;
+  width:auto;
+  height:20px;
+}
+
+#box1 { 
+  width:300px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+#box1 { 
+  margin:10px 12px 14px 16px;
+  padding:10px 12px 14px 16px;
+}
+
+#box1 { 
+  margin:20px 30px;
+  border-width:40px 30px;
+}
+
+div#box1 { 
+  border:20px 30px solid #000; 
+}
+
+#box2 { 
+  border:0 solid red;
+}
+
+#box3 { 
+  border:0 solid blue;
+  width:60.4%;
+}

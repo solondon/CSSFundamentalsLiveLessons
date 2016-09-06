@@ -1,0 +1,73 @@
+ul { 
+  list-style-image:url(Chapter5-Part1-Bullet.gif);
+  list-style-position:outside;
+}
+
+ol { 
+  list-style-type:lower-alpha;
+}
+
+dt { 
+  text-decoration:underline; 
+}
+
+ul { 
+  list-style-type:none;
+  list-style-image:none;
+  padding-left:0;
+}
+ul li { 
+  padding-left:10px;
+  background-image:url(Chapter5-Part1-Bullet.gif);
+  background-repeat:no-repeat;
+  background-position:left .4em;
+}
+
+ol { 
+  padding-left:2em;
+}
+
+dl { 
+  background-color:#ccc; 
+  padding:10px;
+  padding-top:1px;
+}
+dt { 
+  background-color:#222;
+  color:#eee; 
+  font-family:Verdana,sans-serif;
+  text-decoration:none;
+  padding:4px;
+  border-bottom-width:2px;
+  border-bottom-style:solid;
+  border-bottom-color:#555;
+  margin-top:10px;
+}
+dd { 
+  background-image:url(Chapter5-Part1-Bullet.gif);
+  background-repeat:no-repeat;
+  background-position:left center;
+  margin-left:.8em;
+  padding:4px;
+  padding-left:12px;
+  font-family:Arial,sans-serif; 
+}
+
+dl { 
+  background:#ccc; 
+  padding:1px 10px 11px 10px; 
+}
+dt { 
+  background:#222; 
+  border-bottom:2px solid #555; 
+  color:#eee; 
+  font-family:Verdana,sans-serif; 
+  padding:4px;
+  margin-top:10px; 
+}
+dd { 
+  background:transparent url(Chapter5-Part1-Bullet.gif) left center no-repeat; 
+  margin-left:.8em; 
+  padding:4px 4px 4px 12px; 
+  font-family:Arial,sans-serif; 
+}

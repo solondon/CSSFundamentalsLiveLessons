@@ -1,0 +1,122 @@
+body { 
+  background-color:#395a99; 
+  background-image:url(img/smooth_blueprint_gradient.png); 
+  background-position:0 -10px; 
+  background-repeat:repeat-x; 
+}
+
+#header { 
+  height:100px; 
+  margin:0 auto; 
+  padding:4px 0 6px 0; 
+  width:790px; 
+}
+
+#title { 
+  color:#ffffff; 
+  margin:0; 
+  padding:0; 
+  text-align:left; 
+}
+
+#main { 
+  border-right:2px solid #222222; 
+  border-bottom:2px solid #222222; 
+  margin:0 auto; 
+  width:788px; 
+}
+
+#main_content { 
+  background-color:#ffffff; 
+  border:2px solid #ccc; 
+  padding:12px 17px 17px 17px; 
+}
+
+#footer { 
+  border-top:1px solid #ccc; 
+  padding-top:1em; 
+}
+
+#statement { 
+  color:#333333; 
+  font-family:Georgia, serif; 
+  font-size:16px; 
+  font-style:italic; 
+  margin:.5em 0 1.5em 0; 
+}
+
+#download_list, #social_list {
+  margin:0 0 .5em 0;  
+  overflow:hidden; 
+  padding:0; 
+}
+
+#download_list li, #social_list li { 
+  float:left; 
+  font-weight:bold; 
+  list-style-image:none; 
+  list-style-type:none; 
+  margin-right:16px; 
+  padding-left:0; 
+}
+
+#download_list li a { 
+  background-image:url(img/arrow_download.png); 
+  background-position:left center; 
+  background-repeat:no-repeat; 
+  padding-left:15px; 
+}
+
+#download_list li#all_releases { 
+  margin-right:0; 
+  padding-right:0; 
+}
+
+#download_list li#all_releases a { 
+  background-image:url(img/arrow-small.gif); 
+  padding-left:12px; 
+}
+
+#social_list { 
+  margin-bottom:1.5em; 
+}
+
+#social_list li a { 
+  background-position:left center; 
+  background-repeat:no-repeat; 
+  padding:3px 0 3px 20px; 
+}
+
+li#twitter a { 
+  background-image:url(img/icon_twitter.png); 
+}
+
+li#facebook a { 
+  background-image:url(img/icon_facebook.png); 
+}
+
+#credit { 
+  color:#555555; 
+  text-align:center; 
+}
+
+#credit a { 
+  color:#444444; 
+}
+
+ul li { 
+  list-style-image:url(img/bullet.png); 
+}
+
+h2 { 
+  border-bottom:1px solid #ccc; 
+  color:#333333; 
+  font-size:14px; 
+  font-weight:bold; 
+  text-transform:uppercase; 
+  line-height:17px; 
+}
+
+.container { 
+  width:750px; 
+}

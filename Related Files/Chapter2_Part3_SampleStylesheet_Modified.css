@@ -1,0 +1,15 @@
+body { 
+  color:blue; 
+}
+
+.outer { 
+  color:orange; 
+}
+
+#middle { 
+  color:green; 
+}
+
+#middle { 
+  color:red; 
+}

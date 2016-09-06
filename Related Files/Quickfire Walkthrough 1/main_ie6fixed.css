@@ -1,0 +1,86 @@
+body { 
+  font-family:Calibri, Verdana, sans-serif; 
+}
+
+#page { 
+  margin:0 auto; 
+  overflow:hidden; 
+  width:574px; 
+}
+
+h1 { 
+  font-family:Georgia, serif; 
+  letter-spacing:-4px;
+  border-bottom:1px solid #fff; 
+  margin-bottom:-.25em;  
+  text-indent:.5em;  
+}
+
+#main { 
+  background-color:#AABBFF; 
+  background-image:url(Main.png); 
+  background-position:center top; 
+  background-repeat:repeat-y; 
+  float:left; 
+  width:400px; 
+}
+
+#main-1 { 
+  background-image:url(Main-Top.png); 
+  background-position:center top; 
+  background-repeat:no-repeat; 
+  padding-top:10px; 
+}
+
+#main-2 { 
+  background-image:url(Main-Bottom.png); 
+  background-position:center bottom; 
+  background-repeat:no-repeat; 
+  padding:0 15px 10px 15px; 
+}
+
+div.post { 
+  margin-bottom:2em; 
+}
+
+h2.post-title { 
+  font-size:1.2em; 
+  margin-bottom:0; 
+}
+
+div.post-meta { 
+  margin-bottom:1em; 
+}
+
+div.post-meta span {
+  background-position:left .2em; 
+  background-repeat:no-repeat;  
+  padding-left:20px; 
+  margin-right:4px; 
+}
+
+span.post-date { 
+  background-image:url(Calendar-Icon.png); 
+}
+
+span.post-comments { 
+  background-image:url(Comments-Icon.png); 
+}
+
+#side { 
+  margin-left:418px; 
+  width:154px; 
+}
+
+#side img { 
+  border-width:2px; 
+  border-color:#aaaaaa; 
+  border-style:solid; 
+  display:block; 
+  margin-bottom:1em; 
+}
+
+#about * { 
+  display:inline; 
+  font-size:1em; 
+}

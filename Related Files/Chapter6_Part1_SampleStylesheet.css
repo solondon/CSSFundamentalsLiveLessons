@@ -1,0 +1,17 @@
+body { 
+  background-color:#ffd;
+  font-family:"Lucida Grande", Tahoma, sans-serif;  
+}
+
+#container { 
+  background-color:#ddf; 
+  border:2px dotted #bbf; 
+  color:#333; 
+  margin:0 auto;
+  padding:20px;
+  width:300px;
+}
+
+h1 { 
+  font-size:1.5em; 
+}

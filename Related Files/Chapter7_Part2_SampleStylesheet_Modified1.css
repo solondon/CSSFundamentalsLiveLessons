@@ -1,0 +1,55 @@
+body { 
+  background-color:#ffd;
+  font-family:"Lucida Grande", Tahoma, sans-serif;  
+}
+
+#container { 
+  background-color:#ddf; 
+  border:2px solid #bbf; 
+  color:#333; 
+  margin:0 auto;
+  width:90%; 
+}
+
+h1 { 
+  border-bottom:2px solid #999; 
+  font-size:1.5em; 
+  padding:20px 20px 0 20px;
+}
+
+#columns { 
+  padding:0 20px 20px 20px; 
+}
+
+h2 { 
+  font-size:1.2em; 
+}
+
+#columns:after { 
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow:hidden; 
+}
+
+#side-column-1, #main-column, #side-column-2 { 
+  float:left; 
+}
+
+#side-column-1,#side-column-2 { 
+  width:18%; 
+}
+
+#side-column-1 { 
+  margin-right:2%; 
+}
+
+#side-column-2 { 
+  margin-left:2%; 
+}
+
+#main-column { 
+  width:60%; 
+}

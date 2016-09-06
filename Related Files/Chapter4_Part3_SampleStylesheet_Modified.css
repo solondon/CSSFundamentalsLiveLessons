@@ -1,0 +1,25 @@
+#box1 { 
+  float:left;
+  margin:10px;
+  height:200px;
+}
+
+#box2 { 
+  clear:both;
+}
+
+#boxcontainer { 
+  background-color:yellow;
+}
+
+#boxcontainer div { 
+  width:33%;
+  float:left;
+  background-color:green;
+}
+
+#boxcontainer {
+  overflow:auto;
+}
+
+

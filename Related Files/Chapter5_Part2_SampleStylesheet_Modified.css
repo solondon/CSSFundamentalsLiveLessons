@@ -1,0 +1,14 @@
+table { 
+  border-collapse:separate;
+  border-spacing:10px 20px;
+  empty-cells:show;
+}
+
+table { 
+  border-collapse:collapse;
+  caption-side:top;
+}
+
+th, td { 
+  border:1px solid #000; 
+}

@@ -1,0 +1,42 @@
+ul li { 
+  display:inline; 
+}
+
+h2 { 
+  position:static; 
+}
+
+h1 { 
+  position:relative; 
+  top:-30px; 
+}
+
+#box1 { 
+  position:absolute; 
+  top:8px; 
+  left:50%; 
+  background-color:blue; 
+  z-index:-25;
+}
+
+#box2 { 
+  background-color:blue; 
+  position:relative; 
+  left:2em; 
+  width:600px; 
+  height:300px; 
+}
+
+#box3 { 
+  background-color:green; 
+  position:absolute; 
+  top:40px; 
+  right:40px; 
+}
+
+h1 { 
+  position:absolute; 
+  background:orange; 
+  top:0; 
+  z-index:20;
+}

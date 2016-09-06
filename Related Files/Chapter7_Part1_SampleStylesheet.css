@@ -1,0 +1,26 @@
+body { 
+  background-color:#ffd;
+  font-family:"Lucida Grande", Tahoma, sans-serif;  
+}
+
+#container { 
+  background-color:#ddf; 
+  border:2px solid #bbf; 
+  color:#333; 
+  margin:0 auto;
+  width:640px;
+}
+
+h1 { 
+  border-bottom:2px solid #999; 
+  font-size:1.5em; 
+  padding:20px 20px 0 20px;
+}
+
+#columns { 
+  padding:0 20px 20px 20px; 
+}
+
+h2 { 
+  font-size:1.2em; 
+}

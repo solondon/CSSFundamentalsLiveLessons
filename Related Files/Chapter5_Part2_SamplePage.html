@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//google//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>Displaying data with tables</title>
+		<link rel='stylesheet' type='text/css' href='Chapter5-Part2-SampleStylesheet.css'>
+	</head>
+	<body>
+		<h1>Two examples of presenting data with tables</h1>
+		
+		<h2>A horizontally-oriented table</h2>
+		<table id="hor1">
+			<caption>Some random (horizontal) data</caption>
+			<thead>
+				<tr>
+					<th scope="col">Name</th><th scope="col">Value</th><th scope="col">Pivot</th><th scope="col">Extra</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="odd">
+					<th scope="row">John Smith</th><td>90</td><td>1.0</td><td></td>
+				</tr>
+				<tr class="even">
+					<th scope="row">Jane Doe</th><td>91</td><td>1.5</td><td>Else</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Elvis Presley</th><td>92</td><td>1.2</td><td>Here</td>
+				</tr>
+				<tr class="even">
+					<th scope="row">Jack Shephard</th><td>93</td><td>1.1</td><td></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th scope="row">Total</th><td colspan="3">4 items</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		<h2>A vertically-oriented table</h2>
+		<table id="vert1">
+			<caption>Some random (vertical) data</caption>
+			<colgroup>
+				<col class="odd"></col>
+				<col class="even"></col>
+				<col class="odd"></col>
+				<col class="even"></col>
+			</colgroup>
+			<thead>
+				<tr>
+					<th>Fruits</th>
+					<th>Vegetables</th>
+					<th>Dairy</th>
+					<th>Grains</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Apple</td>
+					<td>Carrot</td>
+					<td>Cheese</td>
+					<td>Oats</td>
+				</tr>
+				<tr>
+					<td>Mango</td>
+					<td>Asparagus</td>
+					<td>Yogurt</td>
+					<td>Wheat</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p>More examples of table styling can be found at <a href="http://icant.co.uk/csstablegallery/">The CSS Table Gallery</a></p>
+	</body>
+</html>

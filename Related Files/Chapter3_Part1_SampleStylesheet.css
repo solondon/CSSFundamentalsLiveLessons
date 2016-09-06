@@ -1,0 +1,9 @@
+#named { 
+  background-color:blue; 
+}
+#rgb { 
+  background-color:rgb(0,0,255); 
+}
+#hex { 
+  background-color:#0000FF; 
+}

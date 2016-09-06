@@ -1,0 +1,33 @@
+body { 
+  background-color:#0000FF;
+  background-image:url(Chapter3-Part2-Tile.png);
+  background-repeat:repeat-y;
+  background-position:-20px 40px;
+}
+
+body { 
+  background-color:#333333;
+  background-image:url(Chapter3-Part2-Gradient.png);
+  background-repeat:repeat-x;
+  background-position:0 0;
+}
+
+body { 
+  background:#0000FF url(Chapter3-Part2-Tile.png) repeat-y -20px 40px;
+}
+
+#image1 { 
+  width:200px;
+  height:200px;
+}
+
+a img { 
+  border:none;
+}
+
+#lorem { 
+  background-image:url(Chapter3-Part2-Tile.png);
+  background-position:top right;
+  background-repeat:no-repeat;
+}
+
